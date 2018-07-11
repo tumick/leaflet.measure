@@ -1,0 +1,19 @@
+{
+  "name": "leaflet-measure-custom",
+  "version": "0.0.1",
+  "description": "Leaflet measure control with some customization",
+  "main": "leaflet.measure/leaflet.measure.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumick/leaflet.measure.git"
+  },
+  "keywords": [
+    "leaflet", "measure"
+  ],
+  "author": "mail@juergentreml.de, tumak.oleksandr@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tumick/leaflet.measure/issues"
+  },
+  "homepage": "https://github.com/tumick/leaflet.measure#readme"
+}

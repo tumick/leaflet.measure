@@ -1,6 +1,5 @@
 L.Control.Measure = L.Control.extend({
 	options: {
-		position: 'topleft',
 		kmText: ' км',
 	},
 
@@ -212,7 +211,7 @@ L.Control.Measure = L.Control.extend({
 		const totalRound = this._round(total),
 			differenceRound = this._round(difference);
 
-		let text = '<div class="leaflet-measure-tooltip-total">' + totalRound + this.options.kmText + '</div>';
+		var text = '<div class="leaflet-measure-tooltip-total">' + totalRound + this.options.kmText + '</div>';
 		if(differenceRound > 0 && totalRound !== differenceRound) {
 			text += '<div class="leaflet-measure-tooltip-difference">(+' + differenceRound + this.options.kmText + ')</div>';
 		}

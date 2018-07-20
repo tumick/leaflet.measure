@@ -1,6 +1,7 @@
 L.Control.Measure = L.Control.extend({
 	options: {
 		kmText: ' км',
+    position: 'topleft',
 	},
 
 	onAdd: function (map) {

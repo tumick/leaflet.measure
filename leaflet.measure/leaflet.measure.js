@@ -41,6 +41,7 @@ L.Control.Measure = L.Control.extend({
 	},
 
 	_startMeasuring: function() {
+    this._map.fire('start_measuring');
 		this._oldCursor = this._map._container.style.cursor;
 		this._map._container.style.cursor = 'crosshair';
 
@@ -80,6 +81,7 @@ L.Control.Measure = L.Control.extend({
 		}
 
 		this._restartPath();
+    this._map.fire('stop_measuring');
 	},
 
 	_mouseMove: function(e) {

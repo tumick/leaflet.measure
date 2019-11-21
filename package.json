@@ -1,6 +1,6 @@
 {
   "name": "leaflet-measure-custom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Leaflet measure control with some customization",
   "main": "leaflet.measure/leaflet.measure.js",
   "repository": {
